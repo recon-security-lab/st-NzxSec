@@ -1,0 +1,26 @@
+st-NzxSec ver 1.0 README
+=========================
+
+    st-NzxSec is a Unix program that acts as a GUI terminal. it is st-based terminal environment
+    designed for use in penetration testing and information security educational environment "NzxVox"
+
+*** Installation ***
+
+    # needs a working C compiler, preferably gcc
+    
+    cd st-NzxSec
+    make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
+
+    [optional] sudo make install
+
+    # Optionally, you can specify colors from Xresources 
+    # by applying the Xresources patch.
+
+    cd st-NzxSec
+    patch <st-xresources.diff
+    cp -v ./Xresource $HOME
+    xrdb -merge ~/Xresources
+    mv config.h config.h.buk
+    make 
+
+    [optional] sudo make install

@@ -1,0 +1,37 @@
+*font:         HackGen35:pixelsize=30
+*tabspaces:	4
+
+*foreground:   #9a9a9a
+*background:   #111a1f
+
+! Black / Grey
+*color0:       #111a1f
+*color8:       #093841
+
+! Red / Bright Red
+*color1:       #723e48
+*color9:       #652b37
+
+! Green + Bright Green
+*color2:       #817e00
+*color10:      #636100
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*color3:       #8d7856
+*color11:      #9b9257
+
+! Blue + Bright Blue
+*color4:       #3e4b59
+*color12:      #6998b3
+
+! Magenta (Purple) + Bright Magenta
+*color5:       #a645c7
+*color13:      #c497d1
+
+! Cyan (Aqua) + Bright Cyan
+*color6:       #6998b3
+*color14:      #738c9c
+
+! Light Grey (Selection) + White (Current Line)
+*color7:       #9a9a9a
+*color15:      #9a9a9a
