@@ -17,7 +17,7 @@ st-NzxSec ver 1.0 README
     # by applying the Xresources patch.
 
     cd st-NzxSec
-    patch <st-xresources.diff
+    patch <st-xresources-2022-12-21.patch
     cp -v ./Xresource $HOME
     xrdb -merge ~/Xresources
     mv config.h config.h.buk
