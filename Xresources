@@ -3,6 +3,7 @@
 
 *foreground:   #9a9a9a
 *background:   #111a1f
+*cursorColor:  ##9a9a9a
 
 ! Black / Grey
 *color0:       #111a1f
