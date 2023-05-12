@@ -22,5 +22,4 @@ st-NzxSec ver 1.0 README
     xrdb -merge ~/Xresources
     mv config.h config.h.buk
     make 
-
-    [optional] sudo make install
+    sudo make install
